@@ -1,0 +1,65 @@
+Since you both are new to technology and want to build a Simple Expense Tracker in 1 day, I'll divide the tasks between you (Sreenija) and your teammate (Chakri) so you can work efficiently.
+
+🛠️ Tech Stack
+Frontend: React (for UI)
+Backend: Java + Spring Boot (for API)
+Database: SQLite or H2 (for simplicity)
+Version Control: GitHub
+
+**********************************************************
+🛠️ Individual Project Plan
+Sreenija → Frontend (React App)
+Chakri → Backend (Spring Boot API + Database)
+Each of you will create your own GitHub repository for your respective part.
+************************************************************************
+🚀 Sreenija's Tasks (Frontend - React)
+Create a GitHub Repo → Name it expense-tracker-frontend
+Initialize React App
+sh
+Copy
+Edit
+npx create-react-app expense-tracker-frontend
+cd expense-tracker-frontend
+Install Dependencies
+sh
+Copy
+Edit
+npm install axios react-router-dom
+Build UI Components:
+Expense Input Form
+Expense List
+Summary View
+Connect to Backend API using Axios (http://localhost:8080/expenses)
+Push Code to GitHub
+sh
+Copy
+Edit
+git init
+git remote add origin https://github.com/<your-username>/expense-tracker-frontend.git
+git add .
+git commit -m "Initialized React App"
+git push -u origin main
+*************************************************************************************
+🚀 Chakri's Tasks (Backend - Java Spring Boot)
+Create a GitHub Repo → Name it expense-tracker-backend
+Initialize Spring Boot Project
+Use Spring Web, Spring Data JPA, and H2 Database
+Create API Endpoints
+POST /expenses/add → Add expense
+GET /expenses → Get all expenses
+Set Up Database (H2 or SQLite for simplicity)
+Enable CORS to allow frontend connection
+Push Code to GitHub
+sh
+Copy
+Edit
+git init
+git remote add origin https://github.com/<your-username>/expense-tracker-backend.git
+git add .
+git commit -m "Initialized Spring Boot Backend"
+git push -u origin main
+**********************************************************************************8
+🔗 Integration Plan
+Once both apps are set up, Sreenija will configure the React app to fetch data from Chakri’s backend (http://localhost:8080/expenses).
+
+If you need help with any step, let me know! 🚀
