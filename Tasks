@@ -8,11 +8,13 @@ Version Control: GitHub
 
 **********************************************************
 🛠️ Individual Project Plan
+***********************************************************
 Sreenija → Frontend (React App)
 Chakri → Backend (Spring Boot API + Database)
 Each of you will create your own GitHub repository for your respective part.
 ************************************************************************
 🚀 Sreenija's Tasks (Frontend - React)
+************************************************************************
 Create a GitHub Repo → Name it expense-tracker-frontend
 Initialize React App
 sh
@@ -41,6 +43,7 @@ git commit -m "Initialized React App"
 git push -u origin main
 *************************************************************************************
 🚀 Chakri's Tasks (Backend - Java Spring Boot)
+*************************************************************************************
 Create a GitHub Repo → Name it expense-tracker-backend
 Initialize Spring Boot Project
 Use Spring Web, Spring Data JPA, and H2 Database
@@ -58,8 +61,9 @@ git remote add origin https://github.com/<your-username>/expense-tracker-backend
 git add .
 git commit -m "Initialized Spring Boot Backend"
 git push -u origin main
-**********************************************************************************8
+***********************************************************************************
 🔗 Integration Plan
+***********************************************************************************
 Once both apps are set up, Sreenija will configure the React app to fetch data from Chakri’s backend (http://localhost:8080/expenses).
 
 If you need help with any step, let me know! 🚀
